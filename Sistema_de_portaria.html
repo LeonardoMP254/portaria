@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grupos de frutas escolhidas</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: aliceblue;}
+        .box { background: white; padding: 20px; border-radius: 8px; display: inline-block; margin-top: 50px;}
+    </style>
+</head>
+<body>
+    <h1>Portaria</h1>
+    <div id="resultado"></div> <br> <br>
+
+         <button onclick="Nome()">Adicionar Fruta</button>
+
+<script>
+    function Nome() {
+        let autorizados = ["Ana", "Carlos", "Marta", "João"];
+        let nomeUsuario = prompt("Digite seu nome:");
+        let horaAtual = Number(prompt("Digite a hora atual (0-23):"));
+        let resultadoDiv = document.getElementById("resultado");
+
+        if (autorizados.includes(nomeUsuario)) {
+        if (horaAtual < 22) {
+        resultadoDiv.innerHTML = ("Acesso Permitido. Bem-vindo, " + nomeUsuario + "!");
+        } else {
+        resultadoDiv.innerHTML = ("Acesso Negado: Fora do horário permitido (após as 22h).");
+        }
+        } else {
+        resultadoDiv.innerHTML = ("Acesso Negado: Usuário não cadastrado.");
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
