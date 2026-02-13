@@ -111,6 +111,6 @@ Com este projeto foi possível aprender:
 
 ##👨‍💻 Autor
 
-Desenvolvido por: <font color="blue">**Leonardo**</font>
+<p><font color="blue">Desenvolvido por:**Leonardo**</font></p>
 
 Atividade acadêmica de JavaScript 💙
