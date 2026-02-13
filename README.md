@@ -109,7 +109,9 @@ Com este projeto foi possível aprender:
 
 - Como criar validações semelhantes a sistemas reais de empresas
 
-##👨‍💻 Autor
+---
+
+## 👨‍💻 Autor
 
 
 Desenvolvido por: **Leonardo**
