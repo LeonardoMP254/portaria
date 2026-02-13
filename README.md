@@ -1,4 +1,4 @@
-### 🏢 Sistema de Portaria Inteligente - TechZone
+# 🏢 Sistema de Portaria Inteligente - TechZone
 ## 📌 Descrição
 
 Este projeto foi desenvolvido como um protótipo de um **Sistema de Portaria Inteligente** para a empresa fictícia **TechZone**.
@@ -20,7 +20,7 @@ O sistema simula regras reais de acesso utilizadas em empresas de tecnologia, ap
 
 O sistema segue as seguintes validações:
 
-# 1 📋 Banco de Dados
+### 1 📋 Banco de Dados
 
 - Existe uma lista (Array) com os nomes autorizados:
 
@@ -29,7 +29,7 @@ O sistema segue as seguintes validações:
 ["Ana", "Carlos", "Marta", "João"]
 ```
 
-# 2 🔍 Verificação de Identidade
+### 2 🔍 Verificação de Identidade
 
 - SE o nome digitado estiver na lista → acesso permitido
 
@@ -40,7 +40,7 @@ O sistema segue as seguintes validações:
 Acesso Negado: Usuário não cadastrado
 ```
 
-# 3 ⏰ Regra de Horário (Diferencial)
+### 3 ⏰ Regra de Horário (Diferencial)
 
 - Mesmo autorizado, o colaborador só pode entrar antes das 22h
 
